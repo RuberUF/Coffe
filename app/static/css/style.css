@@ -4,6 +4,8 @@ body{
   background-attachment:fixed;
   background-size:cover;
   text-align:center;
+  margin:0;
+  font-family:Helvetica,Arial,sans-serif;
 }
 img{
   position:fixed;
@@ -12,10 +14,34 @@ img{
   height:80dvh;
 }
 header{
-  background-color:black;
+  background-color:#0B1B30;
   color:white;
-  margin:-10;
+  margin:-10px;
   padding:2px;
   font-size:20px;
   opacity:0.8;
+}
+.formulario{
+  position:absolute;
+  background-color:#0B1B30;
+  opacity:0.8;
+  width:30%;
+  height:200px;
+  border-radius:5px;
+  top:20%;
+  color:white;
+  text-align:center;
+  left:50%;
+  transform:translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background-color:#1C304D;
+  border:1px solid black;
+  border-radius:5px;
+  opacity:none;
+  padding:10px;
 }
