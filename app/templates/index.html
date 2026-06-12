@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title></title>
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
   </head>
@@ -22,6 +23,13 @@
       <button id="btn1">Aceptar</button>
     </form>
   </div>
+  <div class="descripcion">
+    <textarea>{{ descripcion }}</textarea>
+  </div>
   <div><img src="{% static 'imgs/k-on.png' %}"></div> 
   </body>
+  <script>
+    const registro="{{ exito }}";
+  </script>
+  <script src="{% static 'js/app.js' %}"></script>
 </html>
